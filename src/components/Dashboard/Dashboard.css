@@ -1,19 +1,9 @@
-/* .header-nav {
+.wrapper {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background: blue;
-    height: 64px;
-    width: 100%;
 }
 
-.brand {
-    margin-left: 200px;
-    color: #fff;
+.profile-box {
+  width: 321px;
+  height: 150px;
 }
 
-.home-img,
-.search-img {
-    width: 30px;
-    margin: 5px 10px;
-} */
