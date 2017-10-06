@@ -48,7 +48,7 @@ input {
   font-size: 15px;
   padding-left: 5px;
 }
-button {
+.Log_inBtn {
     margin-top: 15px;
     width: 350px;
     height: 40px;
