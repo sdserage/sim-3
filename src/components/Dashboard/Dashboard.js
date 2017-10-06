@@ -7,8 +7,12 @@ export default class Dashboard extends Component {
         return(
             <div>
                 <Header />
-                <div className="profile-box">
-                    <button>Edit profile</button>
+                <div className="wrapper">
+                    <div className="profile-box">
+                        <img className="robot-img" src="https://robohash.org/me" />
+                        <p>Dan Abramov</p>
+                        <button className="edit-btn">Edit profile</button>
+                    </div>
                 </div>
             </div>
         )
