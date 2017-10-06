@@ -1,20 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-    .Auth__parent_container {
-        width: 100%;
-        min-width: 600px;
-        height: 100vh;
-        min-height: 500px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -ms-flex-align: center;
-        align-items: center;
-    
+.Auth_parent_container {
+  width:100%;
+  min-width:600px;
+  height:100vh;
+  min-height:500px;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-pack:center;
+  justify-content:center;
+  -ms-flex-align:center;
+  align-items:center;
+   background-image: linear-gradient(99deg, #ff70a6, #ff9770 40%, #ffd670 73%, #e9ff70);
 }
-img {
-  margin: 50px;
-  width: 250px;
+
+.Auth_child_container{
+  width:496px;
+  height:392px;
+  
+  display:flex;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  background-image: linear-gradient(99deg, #ff9170, #f89e7d 40%, #ffd670 73%, #e9ff70);
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26); 
+  border-radius: 8px;
+}
+.Auth__child_container,.Auth__logo_container{
+  display:flex;
+  -ms-flex-direction:column;
+  flex-direction:column
+}
+
+.Auth_logo_container{
+  display:flex;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  width:100%;
+  height:75%;
+  -ms-flex-align:center;
+  align-items:center;
 }
 input {
   margin-top: 15px;
@@ -27,12 +50,17 @@ input {
 }
 button {
     margin-top: 15px;
-    width: 175px;
+    width: 350px;
     height: 40px;
     border-radius: 5px;
-    background: white;
+    background:#403d39;
     font-size: 20px;
+    color: white;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
   
   button:focus {
