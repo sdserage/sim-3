@@ -1,3 +1,3 @@
 SELECT *
 FROM robots
-WHERE authid = $1;
+WHERE id = $1;
